@@ -13,8 +13,23 @@ body{margin: 0;}
   #mid{border: 5px solid red;}
   #midupperlogo {position:relative; z-index:2;  margin-left:220px; border: 5px solid blue;}
   #midunderlogo {position:relative; left:10px; top:-300px; z-index:1;  margin-left:550px; border: 5px solid black;}
-  h1 {margin-left: 220px;}
-
+  h1.Section-Top {margin-left: 220px;}
+h1.section-heading{
+}
+.section-subheading{
+	word-break:keep-all;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.Table-Section1{
+	margin-top : -150px;
+}
+.table-layout{
+	table-layout: fixed;
+	word-break:break-all;
+	margin:auto;
+	text-align: center;
+}
   #bottom {
 	text-align: right;
 	font-style: italic; 
