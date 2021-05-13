@@ -22,14 +22,52 @@ h1.section-heading{
 	margin-right: 20%;
 }
 .Table-Section1{
-	margin-top : -150px;
+	margin-top : 8%;
 }
 .table-layout{
 	table-layout: fixed;
 	word-break:break-all;
-	margin:auto;
+	height:100%;
 	text-align: center;
 }
+.unit-link{
+	display:block;
+}
+
+.page-section {
+	float:center;
+	padding: 3rem 0;
+  }
+  .container{
+	float:center;
+	width: 100%;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  .text-center {
+	text-align: center !important;
+  }
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -0.75rem;
+	margin-left: -0.75rem;
+  }
+
+  .col-md, .col-lg, .col-sm {
+	position: relative;
+	width: 100%;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+  }	
+  @media (min-width: 768px) {
+	.col-md {
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+  }
   #bottom {
 	text-align: right;
 	font-style: italic; 
