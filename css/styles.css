@@ -14,16 +14,45 @@
   #midupperlogo {position:relative; z-index:2;  margin-left:220px; border: 5px solid blue;}
   #midunderlogo {position:relative; left:10px; top:-300px; z-index:1;  margin-left:550px; border: 5px solid black;}
   h1.Section-Top {margin-left: 220px;}
+@font-face{
+	src: url("../assets/font/SF-Font_Pro.ttf");
+	font-family: "SF";
+}
+.unit-image{
+	width: 516px;
+	height: 490px;
+	background-image: url("../assets/test.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 h1.section-heading{
+	font-family: "SF";
+	font-size:40px;
+	line-height: 1.1;
+	font-weight: 600;
+	letter-spacing: 0.05em;
 }
 .section-subheading{
+	font-size: 21px;
+	line-height: 1.2381;
+	font-weight: 400;
+	letter-spacing: .016em;
+	margin-top: -20px;
+	font-family: "SF";
+}
+.section-content{
+	font-weight: 450;
+	font-size: 18px;
+	font-family: "SF";
+	line-height: 1.4;
+	color: #86868b;
 	word-break:keep-all;
 	margin-left: 20%;
 	margin-right: 20%;
 }
 .Table-Section1{
-	color:white;
-	margin-top : 100px;
+	margin-top : 55px;
 }
 .table-layout{
 	table-layout: fixed;
@@ -53,20 +82,26 @@ h1.section-heading{
   .row {
 	display: flex;
 	flex-wrap: wrap;
-	margin-right: -0.75rem;
-	margin-left: -0.75rem;
+	margin-right: -1.05rem;
+	margin-left: -1.05rem;
 	justify-content: center;
   }
 
+  .bg-black{
+		color:white;
+		background-color: black;
+  }
+  .bg-gray{
+		background-color: #fbfbfd;
+  }
   .col-md, .col-lg, .col-sm {
-	background-color: black;
 	position: relative;
 	padding-right: 10px;
 	padding-left: 10px;
-	min-height : 400px;
+	min-height : 580px;
 	margin-left: 0.25%;
 	margin-right: 0.25%;
-	margin-top:0.5%;
+	margin-top: 10px;
   }	
   @media (min-width: 577px) {
 	.col-md {
