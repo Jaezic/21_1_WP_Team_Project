@@ -1,0 +1,63 @@
+a { text-decoration:none;} 
+
+
+.top {
+  background-color: grey;
+  overflow: hidden;
+}
+
+.top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top a.active {
+  background-color: #50bcdf;
+  color: white;
+}
+
+#intro {border: solid;
+text-align: center;}
+
+#dot {border: dotted; text-align: center;}
+
+#section {border: solid;
+	width: 100%;
+	height: 100%;}
+#sec {border: solid;
+	padding-bottom: 30%;}
+
+
+#something {text-align: center}
+
+#section1 {border: solid;
+text-align: center;
+}
+
+#square {border: solid;
+text-align: center;
+margin: 20 30 20 10;
+padding: 20 30 40 50;
+width: 400px;}
+
+#square2 {border: solid;
+text-align: center;
+margin: 20 30 20 600;
+padding: 20 30 40 50;
+width: 400px;}
+
+
+#logo {width: 400px;}
+
+.download {
+	background-color: black;
+  }	
