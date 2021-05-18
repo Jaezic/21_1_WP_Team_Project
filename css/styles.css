@@ -1,11 +1,6 @@
 *,*::before,*::after{box-sizing: border-box;}
-<<<<<<< Updated upstream
-//body{margin: 0;}
-#topMenu { height: 30px; width: 566px;} 
-=======
 body{margin: 0;}
-  #topMenu { height: 30px; width: 1790px;} 
->>>>>>> Stashed changes
+#topMenu { height: 30px; width: 566px;} 
   #topMenu ul {list-style-type: none; margin: 0px; padding: 0px; } 
   #topMenu ul li {color: white; background-color: #64AAFF;  float: left; line-height: 40px;  vertical-align: middle;  text-align: center;  position: relative;} 
   .menucss, .submenucss {  text-decoration:none; display: block;  width: 350px; font-size: 12px; font-weight: bold; font-family: "Trebuchet MS", Dotum;  }
@@ -23,12 +18,10 @@ body{margin: 0;}
 	src: url("../assets/font/SF-Font_Pro.ttf");
 	font-family: "SF";
 }
-.unit-image{
-	width: 516px;
-	height: 490px;
-	background-image: url("../assets/test.jpg");
-	background-size: cover;
-	background-position: center;
+.unit1-image{
+	background-image: url("../assets/Content1-img.png");
+	background-size: 600px;
+	background-position: 51% 130%;
 	background-repeat: no-repeat;
 }
 h1.section-heading{
@@ -41,8 +34,8 @@ h1.section-heading{
 .section-subheading{
 	font-size: 21px;
 	line-height: 1.2381;
-	font-weight: 400;
-	letter-spacing: .016em;
+	font-weight: 500;
+	letter-spacing: .010em;
 	margin-top: -20px;
 	font-family: "SF";
 }
@@ -51,10 +44,15 @@ h1.section-heading{
 	font-size: 18px;
 	font-family: "SF";
 	line-height: 1.4;
-	color: #86868b;
 	word-break:keep-all;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+.content-g{
+	color: #292929;
+}
+.content-b{
+	color: #86868b;
 }
 .Table-Section1{
 	margin-top : 55px;
@@ -108,31 +106,94 @@ h1.section-heading{
 	margin-right: 0.25%;
 	margin-top: 10px;
   }	
-  @media (min-width: 577px) {
+@media (min-width: 577px) {
 	.col-md {
-	  flex: 0 0 50%;
-	  max-width: 49%;
+		flex: 0 0 50%;
+		max-width: 49%;
 	}
-  }
-  #bottom {
+}
+#bottom {
 	text-align: right;
 	font-style: italic; 
 	font-size: small;
 	border: 5px solid green; 
-	}
-	
-	#gachonLogo {
-	display:inline-block;
-	position:relative;
-	top:-315px; left:15px;
-	border: 5px solid yellow; 
-	}
+}
 
-	#contents {
-	border: 5px solid purple; 
-	}
-	#slice {
-	border: 5px solid black; 
-	display:inline-block;
-	margin-left:580px;
-	}
+#gachonLogo {
+display:inline-block;
+position:relative;
+top:-315px; left:15px;
+border: 5px solid yellow; 
+}
+
+#contents {
+border: 5px solid purple; 
+}
+#slice {
+border: 5px solid black; 
+display:inline-block;
+margin-left:580px;
+}
+
+.test{
+margin-left: 100px;
+}
+.align-center{
+height: 40px;
+margin: 30 auto;
+}
+#bottom {
+text-align: right;
+font-style: italic; 
+font-size: small;
+border: 5px solid green; 
+}
+.Sizedbox{
+height: 44px;
+}
+.Topnav{
+z-index: 999;
+position: relative;
+top: 0;
+left: 0;
+right: 0;
+height: 44px; 
+margin: 0px 0px 0px 0px;
+background: linear-gradient( to right, rgb(134, 13, 13),rgb(26, 1, 71) 60%);
+}
+.Topnav .nav-content{
+margin: 0 auto;
+max-width: 980px;
+}
+.Topnav .nav-content .nav-ul{
+height:44px;
+justify-content: space-between;
+display : flex;
+list-style: none;
+padding:0px;
+vertical-align: center;
+}
+.Topnav .nav-content .nav-ul .nav-li{
+height:44px;
+text-align: center;
+display: inline-block;
+}
+.Topnav .nav-content .nav-ul .nav-li .nav-link{
+text-decoration: none;
+color:#f5f5f7;
+font-size: 14px;
+font-weight:10;
+opacity: .8;
+line-height: 12px;
+}
+.Topnav .nav-content .nav-ul .nav-li .nav-main{
+	text-decoration: none;
+	color:#f5f5f7;
+	font-size: 16px;
+	font-weight:550;
+}
+.search-placeholder{
+	height:.0em;
+}
+.Topnav .nav-content .nav-ul .nav-li .nav-link:hover {opacity: 100; } 
+#title_content {border: 5px solid red;}
