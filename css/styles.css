@@ -110,6 +110,18 @@ h1.section-heading{
 	background-repeat: no-repeat;
 
   }
+  .unit-back2{
+	background-image: url("../assets/진로 그림2.jpg");
+	background-position: 50% 70%;
+	background-repeat: no-repeat;
+
+  }
+  .unit-back3{
+	background-image: url("../assets/qualification main img.jpg");
+	background-position: 50% 70%;
+	background-repeat: no-repeat;
+
+  }
   .unit1-heading{
 	  color:white;
 	  text-shadow: 4px 4px 6px #1d1d1d;
@@ -536,6 +548,18 @@ font-weight:bolder;
 	display:flex;
 	flex-direction: column;
 }
+.column-page-item2{
+	min-height: 200px;
+	margin-left:30px;
+	margin-right:30px;
+	max-width: 25%;
+	flex: 1 1 auto;	
+	border-radius: 4px;
+	background-color: #ffffff;
+	display:flex;
+	flex-direction: column;
+}
+
 .bg-carbon{
 	background-color: #333A45;
 }
