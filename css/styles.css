@@ -104,8 +104,13 @@ h1.section-heading{
 	margin-left: -1.05rem;
 	justify-content: center;
   }
+<<<<<<< Updated upstream
   .unit1{
 	background-image: url("../assets/content1-back.jpg");
+=======
+  .unit-back{
+	background-image: url("../assets/main/content1-back.jpg");
+>>>>>>> Stashed changes
 	background-position: 50% 70%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -113,17 +118,32 @@ h1.section-heading{
 	text-shadow: 4px 4px 6px #1d1d1d;
 
   }
+<<<<<<< Updated upstream
   .unit4{
 	background-image: url("../assets/content4-back.jpg");
 	background-position: 50% 0%;
+=======
+  .unit-back2{
+	background-image: url("../assets/main/content4-back.png");
+	background-position: 50% 70%;
+	background-size: cover;
+>>>>>>> Stashed changes
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:white;
 
+
   }
+<<<<<<< Updated upstream
   .unit5{
 	background-image: url("../assets/content5-back.jpg");
 	background-position: 50% 10%;
+=======
+  .unit-back3{
+	background-image: url("../assets/main/content5-back.png");
+	background-position: 50% 70%;
+	background-size: cover;
+>>>>>>> Stashed changes
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:white;
