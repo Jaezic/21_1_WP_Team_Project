@@ -115,11 +115,10 @@ h1.section-heading{
   }
 
   .unit-back2{
-	background-image: url("../assets/main/content4-back.png");
-	background-position: 50% 70%;
+	background-image: url("../assets/main/content4-back.jpg");
+	background-position: 50% 40%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: cover;
 	color:white;
 
 
