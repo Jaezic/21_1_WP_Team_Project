@@ -1,34 +1,15 @@
 *,*::before,*::after{box-sizing: border-box;}
 body{margin: 0;}
-#topMenu { height: 30px; width: 566px;} 
-  #topMenu ul {list-style-type: none; margin: 0px; padding: 0px; } 
-  #topMenu ul li {color: white; background-color: #64AAFF;  float: left; line-height: 40px;  vertical-align: middle;  text-align: center;  position: relative;} 
-  .menucss, .submenucss {  text-decoration:none; display: block;  width: 350px; font-size: 12px; font-weight: bold; font-family: "Trebuchet MS", Dotum;  }
-  .menucss { color: white; } 
-  .topMenucss:hover .menucss { color: red;  background-color: #4d4d4d; } 
-  .submenucss {color: #2d2d2d;  background-color: white;  border: solid 1px black;  margin-top: -1px;} 
-  .submenu { position: absolute; height: 0px;  overflow: hidden;  transition: height .2s;  -webkit-transition: height .2s;  -moz-transition: height .2s; -o-transition: height .2s;  } 
-  .topMenucss:hover .submenu {height: 1000px; } 
-  .submenucss:hover {  color: white;  background-color: #dddddd; } 
-  #mid{border: 5px solid red;}
-  #midupperlogo {position:relative; z-index:2;  margin-left:220px; border: 5px solid blue;}
-  #midunderlogo {position:relative; left:10px; top:-300px; z-index:1;  margin-left:550px; border: 5px solid black;}
-  h1.Section-Top {margin-left: 220px;}
+
 @font-face{ src: url("../assets/font/SF-Pro-Text-Light.otf") format('truetype'); font-family: "SF-T1"; font-weight:100; }
 @font-face{ src: url("../assets/font/SF-Pro-Text-Regular.otf") format('truetype'); font-family: "SF-T2"; font-weight:200; }
-@font-face{ src: url("../assets/font/SF-Pro-Text-Medium.otf") format('truetype'); font-family: "SF-T3"; font-weight:300; }
-@font-face{ src: url("../assets/font/SF-Pro-Text-Semibold.otf") format('truetype'); font-family: "SF-T4"; font-weight:400; }
-@font-face{ src: url("../assets/font/SF-Pro-Text-Bold.otf") format('truetype'); font-family: "SF-T5"; font-weight:500; }
 @font-face{ src: url("../assets/font/SF-Pro-Text-Heavy.otf") format('truetype'); font-family: "SF-T6"; font-weight:600; }
-@font-face{ src: url("../assets/font/SF-Pro-Display-Ultralight.otf") format('truetype'); font-family: "SF-D1"; font-weight:100; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Thin.otf") format('truetype'); font-family: "SF-D2"; font-weight:200; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Light.otf") format('truetype'); font-family: "SF-D3"; font-weight:300; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Regular.otf") format('truetype'); font-family: "SF-D4"; font-weight:400; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Medium.otf") format('truetype'); font-family: "SF-D5"; font-weight:500; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Semibold.otf") format('truetype'); font-family: "SF-D6"; font-weight:600; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Bold.otf") format('truetype'); font-family: "SF-D7"; font-weight:700; }
-@font-face{ src: url("../assets/font/SF-Pro-Display-Heavy.otf") format('truetype'); font-family: "SF-D8"; font-weight:800; }
-@font-face{ src: url("../assets/font/SF-Pro-Display-Black.otf") format('truetype'); font-family: "SF-D9"; font-weight:900; }
 .unit1-image{
 	background-image: url("../assets/Content1-img.png");
 	background-size: 600px;
