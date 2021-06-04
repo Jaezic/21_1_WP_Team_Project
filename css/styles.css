@@ -1,22 +1,15 @@
 *,*::before,*::after{box-sizing: border-box;}
 body{margin: 0;}
 
-  h1.Section-Top {margin-left: 220px;}
 @font-face{ src: url("../assets/font/SF-Pro-Text-Light.otf") format('truetype'); font-family: "SF-T1"; font-weight:100; }
 @font-face{ src: url("../assets/font/SF-Pro-Text-Regular.otf") format('truetype'); font-family: "SF-T2"; font-weight:200; }
-@font-face{ src: url("../assets/font/SF-Pro-Text-Medium.otf") format('truetype'); font-family: "SF-T3"; font-weight:300; }
-@font-face{ src: url("../assets/font/SF-Pro-Text-Semibold.otf") format('truetype'); font-family: "SF-T4"; font-weight:400; }
-@font-face{ src: url("../assets/font/SF-Pro-Text-Bold.otf") format('truetype'); font-family: "SF-T5"; font-weight:500; }
 @font-face{ src: url("../assets/font/SF-Pro-Text-Heavy.otf") format('truetype'); font-family: "SF-T6"; font-weight:600; }
-@font-face{ src: url("../assets/font/SF-Pro-Display-Ultralight.otf") format('truetype'); font-family: "SF-D1"; font-weight:100; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Thin.otf") format('truetype'); font-family: "SF-D2"; font-weight:200; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Light.otf") format('truetype'); font-family: "SF-D3"; font-weight:300; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Regular.otf") format('truetype'); font-family: "SF-D4"; font-weight:400; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Medium.otf") format('truetype'); font-family: "SF-D5"; font-weight:500; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Semibold.otf") format('truetype'); font-family: "SF-D6"; font-weight:600; }
 @font-face{ src: url("../assets/font/SF-Pro-Display-Bold.otf") format('truetype'); font-family: "SF-D7"; font-weight:700; }
-@font-face{ src: url("../assets/font/SF-Pro-Display-Heavy.otf") format('truetype'); font-family: "SF-D8"; font-weight:800; }
-@font-face{ src: url("../assets/font/SF-Pro-Display-Black.otf") format('truetype'); font-family: "SF-D9"; font-weight:900; }
 .unit1-image{
 	background-image: url("../assets/Content1-img.png");
 	background-size: 600px;
@@ -428,7 +421,7 @@ font-weight:bolder;
 .bottom-top-p-h{
 	font-size: 25px;
 	color:#2F3857;
-	font-family: 'SF-D6';
+	font-family: 'SF-D5';
 }
 .bottom-top-p-white{
 	color:white;
